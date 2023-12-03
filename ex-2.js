@@ -21,7 +21,7 @@ isPlatinum = false; // gold
 
 // result
 hasPromotion =
-  (lastMonthPaidMoreThan4000 && isWeekday && !hasAttendedDiscountEvent) ||
+  (lastMonthPaidMoreThan4000 && isWeekday && !hasBoughtProductFromITCategory && !hasAttendedDiscountEvent) ||
   isPlatinum;
 
 console.log(hasPromotion);
